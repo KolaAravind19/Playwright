@@ -37,7 +37,7 @@ test(" Verify pagination table - Select number of pages", async({page})=>{
   await page.waitForTimeout(3000);
 });
 
-test.only(" search for specific data in a table", async({page})=>{
+test(" search for specific data in a table", async({page})=>{
     await page.goto("https://practice.expandtesting.com/dynamic-pagination-table");
     const searchBox: Locator = page.locator(".form-control");
     await searchBox.fill("Ethan Thomas"); // enter search text in search box

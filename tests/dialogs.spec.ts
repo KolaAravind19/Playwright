@@ -39,7 +39,7 @@ test("Verify confirm dialog box", async ({page}) => {
 
 
 
-test.only("Verify prompt dialog box", async ({page}) => {
+test("Verify prompt dialog box", async ({page}) => {
     await page.goto("https://testautomationpractice.blogspot.com/");
 
 

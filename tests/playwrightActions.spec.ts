@@ -15,7 +15,7 @@ test(" verify radion buttons", async ({ page }) => {
     await page.waitForTimeout(2000);
 });
 
-test.only(" verify checkboxes", async ({ page }) => {
+test(" verify checkboxes", async ({ page }) => {
     
     await page.goto("https://testautomationpractice.blogspot.com/");
 

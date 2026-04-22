@@ -35,7 +35,7 @@ test("Verify iFrame", async ({page}) => {
 });
 
 
-test.only("Verify nested iFrame", async ({page}) => {
+test("Verify nested iFrame", async ({page}) => {
     await page.goto("https://ui.vision/demo/webtest/frames/");
 
     const frame3: null | Frame  = page.frame({url: "https://ui.vision/demo/webtest/frames/frame_3.html"});

@@ -12,7 +12,7 @@ test(" Verify sorted dropdown", async({page})=>{
     expect(sortedList).toEqual(originalList);
 });
 
-test.only(" verify dropdown having duplicate values", async({page})=>{
+test(" verify dropdown having duplicate values", async({page})=>{
     await page.goto("https://testautomationpractice.blogspot.com/");
 
     const dropdownOptions: Locator = page.locator("#colors>option");
