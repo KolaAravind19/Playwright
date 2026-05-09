@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","4600","login","chromium","2026-05-09","passed","2026-05-09","","reporters.spec.ts","",""
+"","4023","Title","chromium","2026-05-09","passed","2026-05-09","","reporters.spec.ts","",""
+"","4082","logotest","chromium","2026-05-09","passed","2026-05-09","","reporters.spec.ts","",""
